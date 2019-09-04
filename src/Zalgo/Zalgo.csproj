@@ -5,6 +5,12 @@
     <TargetFramework>netstandard1.0</TargetFramework>
     <ApplicationIcon />
     <StartupObject />
+    <Authors>Igor Melnikov</Authors>
+    <Company />
+    <Product />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.1.0</Version>
+    <Description>Make ͢som̶e ́f͡un ͏w̶it́h̷ Z͡a̷lgo̡ ̴t͞e̕x̷t</Description>
   </PropertyGroup>
 
 </Project>
