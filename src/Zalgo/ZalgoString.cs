@@ -14,6 +14,10 @@ namespace Zalgo
             _zalgoString = Convert(source, mode, position);
         }
 
+        public static implicit operator ZalgoString(string source) => new ZalgoString(source);
+
+        public static implicit operator string(ZalgoString zalgoString) => zalgoString.ToString();
+
         public override string ToString() => _zalgoString;
 
         private static string Convert(string source,FuckUpMode mode, FuckUpPosition position)
@@ -97,26 +101,25 @@ namespace Zalgo
 
         private static bool IsZalgoChar(char c)
         {
-            int i;
-            for (i = 0; i < ZalgoChars.ZalgoUp.Length; i++)
+            foreach (var @char in ZalgoChars.ZalgoUp)
             {
-                if (c == ZalgoChars.ZalgoUp[i])
+                if (@char == c)
                 {
                     return true;
                 }
             }
 
-            for (i = 0; i < ZalgoChars.ZalgoMid.Length; i++)
+            foreach (var @char in ZalgoChars.ZalgoMid)
             {
-                if (c == ZalgoChars.ZalgoMid[i])
+                if (@char == c)
                 {
                     return true;
                 }
             }
 
-            for (i = 0; i < ZalgoChars.ZalgoDown.Length; i++)
+            foreach (var @char in ZalgoChars.ZalgoDown)
             {
-                if (c == ZalgoChars.ZalgoDown[i])
+                if (@char == c)
                 {
                     return true;
                 }

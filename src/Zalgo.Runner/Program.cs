@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            var res = new ZalgoString("brown fox jumping over lazy dog", FuckUpMode.Normal, FuckUpPosition.All);
+            var text = "brown fox jumping over lazy dog";
+
+            var res = new ZalgoString(text, FuckUpMode.Normal, FuckUpPosition.All);
+            ZalgoString zalgoString = text;
+            string res2 = zalgoString;
         }
     }
 }

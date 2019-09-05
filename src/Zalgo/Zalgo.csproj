@@ -9,8 +9,9 @@
     <Company />
     <Product />
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.1.0</Version>
+    <Version>0.2.0</Version>
     <Description>Make ͢som̶e ́f͡un ͏w̶it́h̷ Z͡a̷lgo̡ ̴t͞e̕x̷t</Description>
+    <PackageTags>zalgo</PackageTags>
   </PropertyGroup>
 
 </Project>
