@@ -2,7 +2,7 @@
 Zalgo is a library that can convert you text to zalgo. Zalgo is a spiled text wth special symbols. For example text `brown fox jumping over lazy dog` can be converted to `b̛̕ŗ̢ơ̧wn ̵͝͏f̨̕ó̕x̛͠ ̕j̡́ưm̨͜͞p̷̀͝i͘͜n͘g̴ o̶͟͠v̕e͢͝r l҉͞ą́͜zy ̸̧͜d̨́ǫ̛g̡`
 
 # Using
-You can add Zalgo using nuget <img alt="Nuget" src="https://img.shields.io/nuget/v/Zalgo">
+You can add Zalgo using nuget <a href="https://www.nuget.org/packages/Zalgo/" rel="nofollow"><img alt="Nuget" src="https://img.shields.io/nuget/v/Zalgo"></a>
 
 Create `ZalgoString` options:
 - use constructor `new ZalgoString("you text")`
