@@ -9,7 +9,7 @@
     <Company />
     <Product />
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.2.1</Version>
+    <Version>0.3.0</Version>
     <Description>Make ͢som̶e ́f͡un ͏w̶it́h̷ Z͡a̷lgo̡ ̴t͞e̕x̷t</Description>
     <PackageTags>zalgo</PackageTags>
     <PackageProjectUrl>https://github.com/MelnikovIG/Zalgo</PackageProjectUrl>
