@@ -11,7 +11,7 @@ namespace Zalgo
 
         UpAndMiddle = 3,
         UpAndBot = 5,
-        MiddleBot = 6,
+        MiddleAndBot = 6,
 
         All = 7
     }
