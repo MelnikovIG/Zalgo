@@ -1,9 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text;
 
 namespace Zalgo
 {
+    /// <summary>
+    /// Zalgo string container
+    /// </summary>
     public class ZalgoString
     {
         private static readonly Random rnd = new Random();
@@ -20,7 +22,7 @@ namespace Zalgo
 
         public override string ToString() => _zalgoString;
 
-        private static string Convert(string source,FuckUpMode mode, FuckUpPosition position)
+        private static string Convert(string source, FuckUpMode mode, FuckUpPosition position)
         {
             if (string.IsNullOrWhiteSpace(source))
             {
