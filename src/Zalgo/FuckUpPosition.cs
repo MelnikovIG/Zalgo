@@ -2,6 +2,9 @@
 
 namespace Zalgo
 {
+    /// <summary>
+    /// Spoilage position
+    /// </summary>
     [Flags]
     public enum FuckUpPosition
     {
