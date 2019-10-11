@@ -1,4 +1,7 @@
-﻿namespace Zalgo
+﻿using System.Runtime.CompilerServices;
+
+[assembly: InternalsVisibleTo("ZalgoTests")]
+namespace Zalgo
 {
     internal static class ZalgoChars
     {
