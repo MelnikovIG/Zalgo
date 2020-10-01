@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using System.Linq;
 
 namespace Zalgo
 {
@@ -103,7 +104,7 @@ namespace Zalgo
 
         private static bool IsZalgoChar(char c)
         {
-            return ZalgoChars.ZalgoDown.Contains(c) || ZalgoChars.ZalgoMid.Contains(c) || ZalgoChars.ZalgoDown.Contains(c);
+            return ZalgoChars.ZalgoUp.Contains(c) || ZalgoChars.ZalgoMid.Contains(c) || ZalgoChars.ZalgoDown.Contains(c);
         }
 
         private static int RandomNumber(int max) => rnd.Next(max);
