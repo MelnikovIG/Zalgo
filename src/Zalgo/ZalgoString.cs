@@ -103,31 +103,7 @@ namespace Zalgo
 
         private static bool IsZalgoChar(char c)
         {
-            foreach (var @char in ZalgoChars.ZalgoUp)
-            {
-                if (@char == c)
-                {
-                    return true;
-                }
-            }
-
-            foreach (var @char in ZalgoChars.ZalgoMid)
-            {
-                if (@char == c)
-                {
-                    return true;
-                }
-            }
-
-            foreach (var @char in ZalgoChars.ZalgoDown)
-            {
-                if (@char == c)
-                {
-                    return true;
-                }
-            }
-
-            return false;
+            return ZalgoChars.ZalgoDown.Contains(c) || ZalgoChars.ZalgoMid.Contains(c) || ZalgoChars.ZalgoDown.Contains(c);
         }
 
         private static int RandomNumber(int max) => rnd.Next(max);
