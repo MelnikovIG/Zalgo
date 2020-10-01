@@ -17,7 +17,7 @@ There is 2 configuration options for creating zalgo string
 
 * `FuckUpMode` enum defines spoilage level
   * `Min` minimum level `b͡row̸n f̧ox̕ ju͘mpin̡g ̡over la͟zy dog`
-  * `Normal` mormal level `b͡r͟ò̴̵w͜n ̛fox̀͡͠ ̡j̡͠͝u̶m̶͏pi͜n̡̛g͘ ̵o̵͘͘v͞è̴ŕ̶̕ ̴̶́la̛zy̧̢̧ ̡d̡og`
+  * `Normal` normal level `b͡r͟ò̴̵w͜n ̛fox̀͡͠ ̡j̡͠͝u̶m̶͏pi͜n̡̛g͘ ̵o̵͘͘v͞è̴ŕ̶̕ ̴̶́la̛zy̧̢̧ ̡d̡og`
   * `Max` maximum level `b̢̕͜r̶ó̡́̕͞wņ̡͏ f̸̡̛͠͞o̧x̸̀ ̷̀͡͞͠jú̷̢͞m̧̢͜͏pì̶̡͢n͏̶̷̡̨ģ̵̡̕͞ ǫ̷̛͞v͟͡ȩ̴̴͡r͟ ͠l͏͢͟a͘҉ź͠y ̡̧͜d͞҉̕òg̷̵̡̡͡`
 
 * `FuckUpPosition` flag enum defines spoilage position (can be combined)
