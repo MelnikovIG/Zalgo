@@ -34,7 +34,7 @@ namespace Zalgo
 
             var addUpCharsCount = 0;
             var addMidCharsCount = 0;
-            var addDOwnCharsCount = 0;
+            var addDownCharsCount = 0;
 
             for (int i = 0; i < sourceLength; i++)
             {
@@ -55,17 +55,17 @@ namespace Zalgo
                     case FuckUpMode.Min:
                         addUpCharsCount = RandomNumber(8);
                         addMidCharsCount = RandomNumber(2);
-                        addDOwnCharsCount = RandomNumber(8);
+                        addDownCharsCount = RandomNumber(8);
                         break;
                     case FuckUpMode.Normal:
                         addUpCharsCount = RandomNumber(10);
                         addMidCharsCount = RandomNumber(4);
-                        addDOwnCharsCount = RandomNumber(10);
+                        addDownCharsCount = RandomNumber(10);
                         break;
                     case FuckUpMode.Max:
                         addUpCharsCount = RandomNumber(12);
                         addMidCharsCount = RandomNumber(6);
-                        addDOwnCharsCount = RandomNumber(12);
+                        addDownCharsCount = RandomNumber(12);
                         break;
                 }
 
@@ -91,7 +91,7 @@ namespace Zalgo
 
                 if (isBotLine)
                 {
-                    for (int j = 0; j < addDOwnCharsCount; j++)
+                    for (int j = 0; j < addDownCharsCount; j++)
                     {
                         result.Append(GetZalgoChar(ZalgoChars.ZalgoDown));
                     }
